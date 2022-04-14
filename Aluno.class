@@ -1,0 +1,16 @@
+class Aluno {
+    
+    String nome;
+    int matricula;
+    curso Curso;
+
+    //Construtor
+    Aluno(String obj,  int matricula, Curso novoCurso){
+        System.out.println("Construtor do Aluno");
+
+    }
+
+    void ExibirRelatorio(){
+        String relatorio = " O aluno: " + nome + "do curso:  " + curso + "foi:" + relatorio;
+        return relatorio;
+}

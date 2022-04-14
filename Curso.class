@@ -1,0 +1,18 @@
+class Curso {
+
+  String nome;
+  PrimeiraDisciplina Disciplina;
+  SegundaDisciplina Disciplina;
+  SegundaDisciplina Disciplina;
+
+
+  float CalcularMedia(int notaUm, int notaDois, int NotaTres){
+    nota = (notaUm + notaDois + NotaTres)/3;
+    return nota;
+  }
+
+  float notaPorDisciplina(){
+
+  }
+
+}

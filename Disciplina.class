@@ -1,0 +1,16 @@
+class Disciplina {
+
+  String nome;
+  int matricula;
+  float notaFinal; 
+
+
+  void ExibirRelatorioDisc(){
+      return
+  }
+
+  float retornarNotaFinal(){
+      return
+  }
+    
+}
