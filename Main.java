@@ -24,13 +24,5 @@ class Main {
     Aluno alunoUm = new Aluno("Camila", 07, CPU);
     Aluno alunoDois = new Aluno("Jose", 70, CPU);
 
-
-    //Passo 5
-    int danoDoPlayer = player.causarDano();
-    while(alien.pontosDeVida > 0){                  
-      alien.receberDano(danoDoPlayer);
-      System.out.println("Vida do monstro: " +       
-                         alien.pontosDeVida);
-    }
-  }
+}
 }
