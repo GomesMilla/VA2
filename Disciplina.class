@@ -4,13 +4,14 @@ class Disciplina {
   int matricula;
   float notaFinal; 
 
-
-  void ExibirRelatorioDisc(){
-      return
+  public void ExibirRelatorioDisc(){
+      System.out.print("\nDisciplina: " + nome);
+      System.out.print("\nNome do professor: " + professor);
+      System.out.print("\nNota: " + notaFinal);
   }
 
   float retornarNotaFinal(){
-      return
+      return notaFinal
   }
     
 }

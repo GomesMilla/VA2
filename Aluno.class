@@ -1,16 +1,21 @@
-class Aluno {
-    
+public class Aluno {
+
     String nome;
     int matricula;
-    curso Curso;
+    Curso curso = new Curso();
 
     //Construtor
-    Aluno(String obj,  int matricula, Curso novoCurso){
-        System.out.println("Construtor do Aluno");
-
+    Aluno(int matri, String nome){
+        this.matricula = matri;
+        this.nome = nome;
     }
-
-    void ExibirRelatorio(){
-        String relatorio = " O aluno: " + nome + "do curso:  " + curso + "foi:" + relatorio;
-        return relatorio;
+    public void ExibirRelatorio(){
+        System.out.print("Matricula: " + matricula + "\n");
+            System.out.print("Nome: " + nome + "\n");
+            if(curso.estaAprovado()){
+                System.out.print("APROVADO");
+            }else{
+                System.out.print("REPROVADO");
+            }
+        }
 }

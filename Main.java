@@ -23,6 +23,5 @@ class Main {
 
     Aluno alunoUm = new Aluno("Camila", 07, CPU);
     Aluno alunoDois = new Aluno("Jose", 70, CPU);
-
-}
+ }
 }
